@@ -39,7 +39,7 @@ public class smllararr {
                 large=a[i];
             }
         }
-        System.out.println("The smllest element in the array:"+large);        
+        System.out.println("The largest element in the array:"+large);        
     }
     
 }
