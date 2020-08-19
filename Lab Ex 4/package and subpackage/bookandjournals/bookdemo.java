@@ -17,7 +17,7 @@ public class bookdemo {
     String authorname[]={"H.G.Wells","R.N.Tagore","Dante","Rabindranath Tagore"};
     public void display(int i)
     {
-        System.out.println("Book Name:"+bookname[i]+"\nAuthor:"+authorname[i]+"\nBook Id:"+bookid[i]+"\nAccession Number:"+ano[i]+"\nPublication:"+publication[i]);
+        System.out.println("Book Name:"+bookname[i-1]+"\nAuthor:"+authorname[i-1]+"\nBook Id:"+bookid[i-1]+"\nAccession Number:"+ano[i-1]+"\nPublication:"+publication[i-1]);
   
     }
     
