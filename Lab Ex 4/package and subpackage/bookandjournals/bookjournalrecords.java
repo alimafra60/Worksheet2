@@ -54,13 +54,13 @@ class student
             if(obj.bookid[i]==bkid)
             {
                 flag=1;
-                System.out.println("BOOK DETAILS :");
+                System.out.println("***Book Details for the Student***");
                 obj.display(i);
             } 
         }
         if(flag==0)
         {
-            System.out.println("Invalid book id");
+            System.out.println("Invalid Book ID!");
         }
         for(int i=0;i<5;i++)
         {
@@ -68,13 +68,13 @@ class student
             if(obj1.journalid[i]==jlid)
             {
                 flag1=1;
-                System.out.println("JOURNAL DETAILS :");
+                System.out.println("***Journal Details for the Student***");
                 obj1.display(i);
             } 
         }
         if(flag1==0)
         {
-            System.out.println("Invalid journal id");
+            System.out.println("Invalid Journal ID!");
         }
     }
 }
@@ -97,13 +97,13 @@ class staff
             if(obj2.bookid[i]==bkid)
             {
                 flag=1;
-                System.out.println("BOOK DETAILS :");
+                System.out.println("***Book Details for the Staff***");
                 obj2.display(i);
             } 
         }
         if(flag==0)
         {
-            System.out.println("Invalid book id");
+            System.out.println("Invalid Book ID!");
         }
         for(int i=0;i<5;i++)
         {
@@ -111,13 +111,13 @@ class staff
             if(obj3.journalid[i]==jlid)
             {
                 flag1=1;
-                System.out.println("JOURNAL DETAILS :");
+                System.out.println("***Journal Details for the Staff");
                 obj3.display(i);
             } 
         }
         if(flag1==0)
         {
-            System.out.println("Invalid journal id");
+            System.out.println("Invalid Journal ID!");
         }
     }
 }    
