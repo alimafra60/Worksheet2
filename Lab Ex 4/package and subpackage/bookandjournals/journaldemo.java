@@ -15,7 +15,7 @@ public class journaldemo {
     String journalname[]={"Economics Journal","Civil Services Journal","Geography Journal","Microbiology jounal"};
     public void display(int i)
     {
-        System.out.println("Journal Name:"+journalname[i-1]+"\nJournal Id:"+journalid[i-1]);
+        System.out.println("Journal Name:"+journalname[i]+"\nJournal Id:"+journalid[i]);
     }
 }
 
