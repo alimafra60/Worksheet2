@@ -26,12 +26,12 @@ public class bookdetails {
         int p=obj.nextInt();
         System.out.println("Enter Journal ID");
         int q=obj.nextInt();
-        student ob1=new student(i,j);
-        staff ob2=new staff(p,q);
+        student obj1=new student(i,j);
+        staff obj2=new staff(p,q);
         System.out.println("*****Details of Books and JOurnals Requested by the Student*****");
-        ob1.getstudentinfo();
+        obj1.getstudentinfo();
         System.out.println("*****Details of 1Books and JOurnals Requested by the Student*****");
-        ob2.getstaffinfo();
+        obj2.getstaffinfo();
     }
     
 }
