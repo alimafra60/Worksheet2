@@ -11,7 +11,7 @@ import java.io.FileReader;
 import java.io.IOException;
 /**
  *
- * @author POOJHA KEERTHI
+ * @author ALIM
  */
 public class word_count {
     public static void main(String args[])
