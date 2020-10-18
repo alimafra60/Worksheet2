@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author POOJHA KEERTHI
+ * @author ALIM
  */
 public class libraryprogram {
     public static void main(String[] args){
