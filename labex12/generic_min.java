@@ -7,7 +7,7 @@ package labex12;
 
 /**
  *
- * @author POOJHA KEERTHI
+ * @author ALIM
  */
 public class generic_min {
     public static void main(String[] args) {
