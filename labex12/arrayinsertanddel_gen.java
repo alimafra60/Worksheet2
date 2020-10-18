@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author POOJHA KEERTHI
+ * @author ALIM
  */
 public class arrayinsertanddel_gen {
 
