@@ -25,18 +25,13 @@ public class circularpath {
     private Circle orbiter;
     private int tick;
 
-    //Amount in degrees * this const = amount in radians
+    
     private static final double DEG_TO_RAD = Math.PI / 180;
 
     private static final int TIMER_DELAY = 25;
 
-    /** Constructor for a CircleOrbit object.
-     * Uses the given circle as the center circle, creates an
-     * orbiter circle 1/10th the radius of the center and
-     * on the x-axis of the center circle to start.
-     * These constants should probably be pulled out to final ints
-     * in a real implementation.
-     */
+   
+  
     public circularpath(Circle center){
         this.center = center;
         orbiter = new Circle(new Point2D.Double(), center.radius/10);
@@ -44,7 +39,7 @@ public class circularpath {
         updateOrbiterLoc();
     }
 
-    /** Updates the location of the orbiter circle based on tick */
+ 
     private void updateOrbiterLoc(){
         Point2D.Double d = new Point2D.Double();
         final double xCenter = center.center.x;
@@ -55,19 +50,19 @@ public class circularpath {
         orbiter.setCenter(d);
     }
 
-    /** Increases tick and recalculates the position of the orbiter */
+  
     public void tick(){
         tick += 1;
         updateOrbiterLoc();
     }
 
-    /** Draws both of the circles in this CircleOrbit */
+   
     public void draw(Graphics2D g){
         center.draw(g);
         orbiter.draw(g);
     }
 
-    /** Creates a new panel to draw this orbit */
+  
     public OrbitPanel getPanel(){
         return new OrbitPanel();
     }
